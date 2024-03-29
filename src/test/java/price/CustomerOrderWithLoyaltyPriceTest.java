@@ -1,3 +1,5 @@
+package price;
+
 import org.example.decorator.CustomerOrder;
 import org.example.decorator.Food;
 import org.example.decorator.LoyaltyStatus;
@@ -12,7 +14,7 @@ import org.junit.jupiter.params.provider.EnumSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CustomerOrderWithLoyaltyTest {
+public class CustomerOrderWithLoyaltyPriceTest {
     @ParameterizedTest
     @EnumSource(value = LoyaltyStatus.LOYALTY_STATUS.class, names = {"EXECUTIVE"})
     public void testCustomerOrderExecutive(LoyaltyStatus.LOYALTY_STATUS status) {

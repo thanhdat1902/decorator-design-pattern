@@ -1,3 +1,5 @@
+package price;
+
 import org.example.decorator.food.Burger;
 import org.example.decorator.Food;
 import org.example.decorator.topping.Cheese;
@@ -8,7 +10,7 @@ import org.example.decorator.food.Hotdog;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FoodWithToppingTest {
+public class FoodWithToppingPriceTest {
     @Test
     public void testBurgerCheesePrice() {
         Food burger = new Burger();
@@ -49,4 +51,6 @@ public class FoodWithToppingTest {
         hotdog = new Chili(hotdog);
         assertEquals(3.2, hotdog.getPrice(), 0.0001);
     }
+
+
 }

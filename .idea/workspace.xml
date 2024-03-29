@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f64d717-3ad5-48a9-a9a7-277106a6c682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/CustomerOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/LoyaltyStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/food/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/food/Fries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/food/Hotdog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/topping/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/topping/Chili.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/topping/Ketchup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CompleteUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerOrderWithLoyaltyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FoodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FoodWithToppingIn1LineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FoodWithToppingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/detail/FoodDetailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/detail/FoodWithToppingDetailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CompleteUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CompleteUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/price/CustomerOrderPriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerOrderWithLoyaltyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/price/CustomerOrderWithLoyaltyPriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FoodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/price/FoodPriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FoodWithToppingIn1LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/price/FoodWithToppingIn1LinePriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FoodWithToppingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/price/FoodWithToppingPriceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +49,14 @@
     "JUnit.CustomerOrderWithLoyalty.executor": "Run",
     "JUnit.CustomerOrderWithLoyalty.testCustomerOrderLoyalty.executor": "Run",
     "JUnit.FoodTest.executor": "Run",
+    "JUnit.FoodTest.testBurgerDetails.executor": "Run",
     "JUnit.FoodWithTopping1LineTest.executor": "Run",
+    "JUnit.FoodWithToppingDetailTest.testBurgerKetchupCheeseChiliDetails.executor": "Run",
     "JUnit.FoodWithToppingTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -82,6 +70,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.CompleteUnitTest">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Driver" />
@@ -105,30 +98,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerOrderTest.testCustomerOrderWithoutLoyalty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FoodPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework-5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerOrderTest" />
-      <option name="METHOD_NAME" value="testCustomerOrderWithoutLoyalty" />
+      <option name="PACKAGE_NAME" value="price" />
+      <option name="MAIN_CLASS_NAME" value="price.FoodPriceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodPriceTest.testBurgerDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-5" />
+      <option name="PACKAGE_NAME" value="price" />
+      <option name="MAIN_CLASS_NAME" value="price.FoodPriceTest" />
+      <option name="METHOD_NAME" value="testBurgerDetails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerOrderWithLoyaltyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FoodWithToppingDetailTest.testBurgerKetchupCheeseChiliDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework-5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerOrderWithLoyaltyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FoodWithTopping1LineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework-5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FoodWithTopping1LineTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="detail" />
+      <option name="MAIN_CLASS_NAME" value="detail.FoodWithToppingDetailTest" />
+      <option name="METHOD_NAME" value="testBurgerKetchupCheeseChiliDetails" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CompleteUnitTest" />
+        <item itemvalue="JUnit.FoodWithToppingDetailTest.testBurgerKetchupCheeseChiliDetails" />
+        <item itemvalue="JUnit.FoodPriceTest" />
+        <item itemvalue="JUnit.FoodPriceTest.testBurgerDetails" />
         <item itemvalue="Application.Driver" />
-        <item itemvalue="JUnit.FoodWithTopping1LineTest" />
-        <item itemvalue="JUnit.CustomerOrderTest.testCustomerOrderWithoutLoyalty" />
-        <item itemvalue="JUnit.CustomerOrderWithLoyaltyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711523310965</updated>
       <workItem from="1711523312189" duration="4101000" />
-      <workItem from="1711689878924" duration="8097000" />
+      <workItem from="1711689878924" duration="9349000" />
     </task>
     <servers />
   </component>

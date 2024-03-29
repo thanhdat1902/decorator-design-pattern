@@ -1,3 +1,5 @@
+package price;
+
 import org.example.decorator.Food;
 import org.example.decorator.topping.Cheese;
 import org.example.decorator.topping.Chili;
@@ -7,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FoodWithToppingIn1LineTest {
+public class FoodWithToppingIn1LinePriceTest {
     @Test
     public void testFriesCheeseChiliKetchupPrice() {
         Food fries = new Cheese(new Chili( new Ketchup(new Fries())));

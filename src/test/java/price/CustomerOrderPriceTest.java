@@ -1,3 +1,5 @@
+package price;
+
 import org.example.decorator.CustomerOrder;
 import org.example.decorator.topping.Cheese;
 import org.example.decorator.food.Burger;
@@ -5,7 +7,7 @@ import org.example.decorator.Food;
 import org.example.decorator.food.Fries;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-public class CustomerOrderTest {
+public class CustomerOrderPriceTest {
     @Test
     public void testCustomerOrderWithoutLoyalty() {
         CustomerOrder order = new CustomerOrder("Dat", null);
