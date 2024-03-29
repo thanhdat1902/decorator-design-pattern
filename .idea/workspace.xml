@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f64d717-3ad5-48a9-a9a7-277106a6c682" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/CustomerOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/LoyaltyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/food/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/food/Fries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/food/Hotdog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/topping/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/topping/Chili.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/topping/Ketchup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CompleteUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerOrderWithLoyaltyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FoodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FoodWithToppingIn1LineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FoodWithToppingTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2eGG4PKqnnuPMmpPcWtsI0nlIHs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Driver.executor": "Run",
+    "JUnit.CompleteUnitTest.executor": "Run",
+    "JUnit.CustomerOrderTest.testBurgerCheesePrice.executor": "Run",
+    "JUnit.CustomerOrderTest.testCustomerOrderWithoutLoyalty.executor": "Run",
+    "JUnit.CustomerOrderWithLoyalty.executor": "Run",
+    "JUnit.CustomerOrderWithLoyalty.testCustomerOrderLoyalty.executor": "Run",
+    "JUnit.FoodTest.executor": "Run",
+    "JUnit.FoodWithTopping1LineTest.executor": "Run",
+    "JUnit.FoodWithToppingTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/datnguyen/Downloads/5800 - Software/Homework-5/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.CompleteUnitTest">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Driver" />
+      <module name="Homework-5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompleteUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompleteUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerOrderTest.testCustomerOrderWithoutLoyalty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerOrderTest" />
+      <option name="METHOD_NAME" value="testCustomerOrderWithoutLoyalty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerOrderWithLoyaltyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerOrderWithLoyaltyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodWithTopping1LineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FoodWithTopping1LineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CompleteUnitTest" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="JUnit.FoodWithTopping1LineTest" />
+        <item itemvalue="JUnit.CustomerOrderTest.testCustomerOrderWithoutLoyalty" />
+        <item itemvalue="JUnit.CustomerOrderWithLoyaltyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f64d717-3ad5-48a9-a9a7-277106a6c682" name="Changes" comment="" />
+      <created>1711523310965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711523310965</updated>
+      <workItem from="1711523312189" duration="4101000" />
+      <workItem from="1711689878924" duration="8097000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
